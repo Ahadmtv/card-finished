@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-theme:#ff1756;
+}
+.container{
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+#card{
+    height: 450px;
+    width: 350px;
+background:linear-gradient(to bottom,var(--main-theme) 110px,#fff 110px);
+border-radius: 25px;
+}
+#card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 45px;
+    border: 8px solid #fff;
+    scale: 0.9;
+    transition: 0.3s;
+}
+#card img:hover{
+    scale: 1;
+    
+}
+#my-name{
+    color: var(--main-theme);
+font-size: 22px;
+margin-bottom: 10px;
+}
+
+.intractions{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+}
+.intractions span{
+    color: var(--main-theme);
+    font-weight: bolder;
+}
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+}
+#buttons button:hover{
+    background-color: transparent;
+    color: var(--main-theme);
+    border: 3px solid var(--main-theme);
+    transition:0.3s;
+    /* box-shadow:0px 0px 5px black ; */
+}
+#buttons button{
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--main-theme);
+    color: #fff;
+    font-size: 18px;
+    border: 3px solid var(--main-theme);
+    cursor: pointer;
+}
+.colors{
+    width: 350px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(227, 227, 227);
+    align-self: center;
+    cursor: pointer;
+}
+.btn:hover{
+border: 1px solid gray;
+}
+.btn1{
+    background-color: #ff1756;
+}
+.btn2{
+    background-color: #1cb65d;
+}
+.btn3{
+    background-color: #8e44ad;
+}
+.btn4{
+    background-color: #f4b932;
+}
+.btn5{
+    background-color: #3498db;
+}
